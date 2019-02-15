@@ -1,13 +1,13 @@
-import numpy_primes
-import sys
-
 """
 an interface for numpy_primes.py
 author: Perry Deng pxdeng@pm.me
 date: 02.15.19
-interactive usage: python3 numpy_primes.py
-usage: python3 numpy_primes.py <n>
+interactive usage: python3 interactive.py
+usage: python3 interactive.py <n>
 """
+
+import numpy_primes
+import sys
 
 
 def main():

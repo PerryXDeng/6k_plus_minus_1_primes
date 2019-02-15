@@ -37,9 +37,9 @@ def calculate_primes(n):
     candidate = candidates[i]
     while primes[up_to] < math.sqrt(candidate):
       up_to += 1
-    remainders = np.mod(candidate, primes[0:up_to])
+    remainders = np.mod(candidate, primes[0:up_to + 1])
     prime = np.all(remainders) # true if does not contain 0
     if prime:
       primes[num_primes] = candidate
       num_primes += 1
-  return primes[0: num_primes]
+  return primes[0:num_primes]

@@ -1,4 +1,4 @@
-super fast single thread numpy implementation
+single thread numpy implementation
 calculates all primes in the first n natural numbers
 based on that all primes greater than 3 are either 2k-1 or 2k+1 (k>0)
 

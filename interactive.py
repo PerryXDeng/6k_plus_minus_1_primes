@@ -1,4 +1,5 @@
 import numpy_primes
+import sys
 
 """
 an interface for numpy_primes.py
@@ -7,7 +8,7 @@ date: 02.15.19
 interactive usage: python3 numpy_primes.py
 usage: python3 numpy_primes.py <n>
 """
-import sys
+
 
 def main():
   interactive = False
@@ -23,7 +24,7 @@ def main():
   if interactive:
     to_print = input("Print them all? input y/n\n")
     if to_print == "y":
-      for i in primes[0:primes]:
+      for i in primes[0:num]:
         print(i)
 
 if __name__ == "__main__":

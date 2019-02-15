@@ -42,4 +42,4 @@ def calculate_primes(n):
     if prime:
       primes[num_primes] = candidate
       num_primes += 1
-  return primes[0, num_primes]
+  return primes[0: num_primes]
